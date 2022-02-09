@@ -18,13 +18,6 @@ export default function Home() {
               className="text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
               href="#"
             >
-              <svg
-                className="h-6 w-6 inline-block fill-current text-yellow-700"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
-                <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z" />
-              </svg>
               Rainbow Kingdoms
             </a>
           </div>
@@ -52,174 +45,70 @@ export default function Home() {
             <ul className="list-reset lg:flex justify-end flex-1 items-center">
               <li className="mr-3">
                 <a
-                  className="inline-block py-2 px-4 text-white font-bold no-underline"
+                  className="inline-block py-2 px-4 text-white font-bold no-underline hover:text-gray-500"
                   href="#"
                 >
-                  Active
+                  Home
                 </a>
               </li>
               <li className="mr-3">
                 <a
-                  className="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                  className="inline-block py-2 px-4 text-white font-bold no-underline hover:text-gray-500"
                   href="#"
                 >
-                  link
+                  Roadmap
                 </a>
               </li>
               <li className="mr-3">
                 <a
-                  className="inline-block text-white no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                  className="inline-block py-2 px-4 text-white font-bold no-underline hover:text-gray-500"
                   href="#"
                 >
-                  link
+                  Mint
+                </a>
+              </li>
+              <li className="mr-3">
+                <a
+                  className="inline-block py-2 px-4 text-white font-bold no-underline hover:text-gray-500"
+                  href="#"
+                >
+                  Stake
                 </a>
               </li>
             </ul>
             <button
               id="navAction"
-              className="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
+              className="mx-auto lg:mx-0 hover:underline text-black bg-white font-extrabold rounded mt-4 lg:mt-0 py-2 px-4 shadow"
             >
-              Action
+              Play
             </button>
           </div>
         </div>
       </nav>
 
-      <div className="container mx-auto h-screen">
+      <div className="container mx-auto py-32">
         <div className="text-center px-3 lg:px-0">
           <h1 className="my-4 text-2xl md:text-3xl lg:text-5xl text-white leading-tight">
             Rainbow Kingdoms
           </h1>
-          <p className="leading-normal text-gray-200 text-base md:text-xl lg:text-2xl mb-8">
-            Sub-hero message, not too long and not too short. Make it just
-            right!
+          <p className="leading-normal text-gray-200 text-base md:text-xl lg:text-2xl mb-10">
+            Mint NFT playing cards > S2E + P2E
           </p>
 
-          <button className="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48">
-            Sign Up
-          </button>
-          <a
-            href="#"
-            className="inline-block mx-auto lg:mx-0 hover:underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 py-2 lg:py-4 px-8"
+          <button
+            id="navAction"
+            className="mx-auto lg:mx-0 hover:underline text-black bg-white font-extrabold rounded lg:mt-0 py-2 px-4 shadow"
           >
-            View Additional Action
-          </a>
-        </div>
-
-        <div className="flex items-center w-full mx-auto content-end">
-          <div className="browser-mockup flex flex-1 m-6 md:px-0 md:m-12 bg-white w-1/2 rounded shadow-xl"></div>
+            Mint Playing Cards
+          </button>
         </div>
       </div>
 
-      <section className="bg-white border-b py-8">
-        <div className="container mx-auto flex flex-wrap pt-4 pb-12">
-          <h2 className="w-full my-2 text-5xl font-black leading-tight text-center text-gray-800">
-            Title
-          </h2>
-          <div className="w-full mb-4">
-            <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
-          </div>
-
-          <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a
-                href="#"
-                className="flex flex-wrap no-underline hover:no-underline"
-              >
-                <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
-                  GETTING STARTED
-                </p>
-                <div className="w-full font-bold text-xl text-gray-800 px-6">
-                  Lorem ipsum dolor sit amet.
-                </div>
-                <p className="text-gray-600 text-base px-6 mb-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                </p>
-              </a>
-            </div>
-            <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div className="flex items-center justify-start">
-                <button className="mx-auto lg:mx-0 hover:underline gradient2 text-gray-800 font-extrabold rounded my-6 py-4 px-8 shadow-lg">
-                  Action
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a
-                href="#"
-                className="flex flex-wrap no-underline hover:no-underline"
-              >
-                <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
-                  GETTING STARTED
-                </p>
-                <div className="w-full font-bold text-xl text-gray-800 px-6">
-                  Lorem ipsum dolor sit amet.
-                </div>
-                <p className="text-gray-600 text-base px-6 mb-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                </p>
-              </a>
-            </div>
-            <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div className="flex items-center justify-center">
-                <button className="mx-auto lg:mx-0 hover:underline gradient2 text-gray-800 font-extrabold rounded my-6 py-4 px-8 shadow-lg">
-                  Action
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a
-                href="#"
-                className="flex flex-wrap no-underline hover:no-underline"
-              >
-                <p className="w-full text-gray-600 text-xs md:text-sm px-6 mt-6">
-                  GETTING STARTED
-                </p>
-                <div className="w-full font-bold text-xl text-gray-800 px-6">
-                  Lorem ipsum dolor sit amet.
-                </div>
-                <p className=" text-gray-600 text-base px-6 mb-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                </p>
-              </a>
-            </div>
-            <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div className="flex items-center justify-end">
-                <button className="mx-auto lg:mx-0 hover:underline gradient2 text-gray-800 font-extrabold rounded my-6 py-4 px-8 shadow-lg">
-                  Action
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <footer className="bg-white ">
+      <footer className=" bg-white pt-5">
         <div className="container mx-auto mt-8 px-8">
           <div className="w-full flex flex-col md:flex-row py-6">
             <div className="flex-1 mb-6">
-              <a
-                className="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-                href="#"
-              >
-                <svg
-                  className="h-6 w-6 inline-block"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M13 8V0L8.11 5.87 3 12h4v8L17 8h-4z" />
-                </svg>
-                RNBW
-              </a>
+              <Image src="/assets/logo.png" height={80} width={80} className="rounded-xl"/>
             </div>
 
             <div className="flex-1">
