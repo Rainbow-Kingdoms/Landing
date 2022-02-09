@@ -112,7 +112,7 @@ export default function Home() {
             </div>
 
             <div className="flex-1">
-              <p className="uppercase font-extrabold text-gray-500 md:mb-6">
+              <p className="uppercase font-extrabold text-black md:mb-6">
                 Links
               </p>
               <ul className="list-reset mb-6">
@@ -143,7 +143,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="flex-1">
-              <p className="uppercase font-extrabold text-gray-500 md:mb-6">
+              <p className="uppercase font-extrabold text-black md:mb-6">
                 Legal
               </p>
               <ul className="list-reset mb-6">
@@ -166,7 +166,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="flex-1">
-              <p className="uppercase font-extrabold text-gray-500 md:mb-6">
+              <p className="uppercase font-extrabold text-black md:mb-6">
                 Social
               </p>
               <ul className="list-reset mb-6">
@@ -197,7 +197,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="flex-1">
-              <p className="uppercase font-extrabold text-gray-500 md:mb-6">
+              <p className="uppercase font-extrabold text-black md:mb-6">
                 Company
               </p>
               <ul className="list-reset mb-6">
