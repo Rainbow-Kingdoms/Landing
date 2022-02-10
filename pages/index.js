@@ -100,7 +100,7 @@ export default function Home() {
             Rainbow Kingdoms
           </h1>
           <p className="leading-normal text-gray-200 text-base md:text-xl lg:text-2xl mb-10">
-            Mint NFT Playing Cards > S2E + P2E
+            Mint NFT Playing Cards, S2E & P2E
           </p>
 
           <button
