@@ -94,21 +94,28 @@ export default function Home() {
         </div>
       </nav>
 
-      <div className="container mx-auto py-32">
+      <div className="container mx-auto py-2">
         <div className="text-center px-3 lg:px-0">
-          <h1 className="my-4 text-2xl md:text-3xl lg:text-5xl text-white leading-tight">
-            Rainbow Kingdoms
-          </h1>
-          <p className="leading-normal text-gray-200 text-base md:text-xl lg:text-2xl mb-10">
-            Mint NFT Playing Cards, S2E & P2E
-          </p>
+          <div className="flex items-center justify-center">
+          <div>
+              <div className="leading-normal text-gray-200 text-base md:text-xl lg:text-2xl mb-10">
+                Mint NFT Playing Cards, S2E & P2E
+              </div>
+              <button
+                id="navAction"
+                className="mx-auto lg:mx-0 hover:underline text-black bg-white font-extrabold rounded lg:mt-0 py-2 px-4 shadow"
+              >
+                Mint Cards
+              </button>
+            </div>
+            <Image
+              src="/assets/sublogga.png"
+              height={700}
+              width={700}
+              alt="Rainbow Kingdoms"
+            />
 
-          <button
-            id="navAction"
-            className="mx-auto lg:mx-0 hover:underline text-black bg-white font-extrabold rounded lg:mt-0 py-2 px-4 shadow"
-          >
-            Mint Playing Cards
-          </button>
+          </div>
         </div>
       </div>
 
@@ -116,7 +123,12 @@ export default function Home() {
         <div className="container mx-auto mt-8 px-8">
           <div className="w-full flex flex-col md:flex-row py-6">
             <div className="flex-1 mb-6">
-              <Image src="/assets/logo.png" height={80} width={80} className="rounded-xl"/>
+              <Image
+                src="/assets/logo.png"
+                height={80}
+                width={80}
+                className="rounded-xl"
+              />
             </div>
 
             <div className="flex-1">
