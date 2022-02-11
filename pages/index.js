@@ -96,9 +96,17 @@ export default function Home() {
 
       <div className="container mx-auto py-2">
         <div className="text-center px-3 lg:px-0">
-          <div className="flex items-center justify-center">
-          <div>
-              <div className="leading-normal text-gray-200 text-base md:text-xl lg:text-2xl mb-10">
+          <div className="block md:hidden">
+            <Image
+              src="/assets/sublogga.png"
+              height={700}
+              width={700}
+              alt="Rainbow Kingdoms"
+            />
+          </div>
+          <div className="flex items-center justify-center -top-20 md:top-0 relative">
+            <div>
+              <div className="leading-normal text-gray-200 text-base md:text-xl lg:text-2xl mb-6">
                 Mint NFT Playing Cards, S2E & P2E
               </div>
               <button
@@ -108,13 +116,14 @@ export default function Home() {
                 Mint Cards
               </button>
             </div>
-            <Image
-              src="/assets/sublogga.png"
-              height={700}
-              width={700}
-              alt="Rainbow Kingdoms"
-            />
-
+            <div className="hidden md:block">
+              <Image
+                src="/assets/sublogga.png"
+                height={700}
+                width={700}
+                alt="Rainbow Kingdoms"
+              />
+            </div>
           </div>
         </div>
       </div>
