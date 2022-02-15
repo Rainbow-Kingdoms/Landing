@@ -80,7 +80,7 @@ export default function Header() {
           </ul>
           <button
             id="navAction"
-            className="mx-auto lg:mx-0 hover:underline text-black bg-white font-extrabold rounded mt-4 lg:mt-0 py-2 px-4 shadow"
+            className="mx-auto lg:mx-0 hover:underline text-black bg-white font-extrabold rounded mt-4 lg:mt-0 py-2 px-4 shadow ml-3"
           >
             Play
           </button>
