@@ -54,14 +54,11 @@ export default function Header() {
               </Link>
             </li>
             <li className="mr-3">
-              <a
-                className="inline-block py-2 px-4 text-white font-bold no-underline hover:text-gray-500"
-                href="https://webeli.github.io/hashlips_art_engine/preview.png"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Preview
-              </a>
+              <Link href="/preview">
+                <a className="inline-block py-2 px-4 text-white font-bold no-underline hover:text-gray-500">
+                  Preview
+                </a>
+              </Link>
             </li>
             <li className="mr-3">
               <a
