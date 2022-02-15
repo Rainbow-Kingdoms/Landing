@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import Layout from "../components/Layout";
 import styles from "../styles/Home.module.css";
@@ -31,12 +32,14 @@ export default function Home() {
                 <div className="leading-normal text-gray-200 text-base md:text-xl lg:text-2xl mb-6">
                   Mint NFT Playing Cards, S2E & P2E
                 </div>
-                <button
-                  id="navAction"
-                  className="mx-auto lg:mx-0 hover:underline text-black bg-white font-extrabold rounded lg:mt-0 py-2 px-4 shadow"
-                >
-                  Mint Cards
-                </button>
+                <Link href="/preview">
+                  <button
+                    id="navAction"
+                    className="mx-auto lg:mx-0 hover:underline text-black bg-white font-extrabold rounded lg:mt-0 py-2 px-4 shadow"
+                  >
+                    Preview
+                  </button>
+                </Link>
               </div>
               <div className="hidden md:block">
                 <Image

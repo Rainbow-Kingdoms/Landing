@@ -7,12 +7,11 @@ export default function Header() {
     <nav id="header" className="w-full z-30 top-0 text-white py-1 lg:py-6">
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-2 lg:py-6">
         <div className="pl-4 flex items-center">
-          <a
-            className="text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-            href="#"
-          >
-            Rainbow Kingdoms
-          </a>
+          <Link href="/">
+            <a className="text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
+              Rainbow Kingdoms
+            </a>
+          </Link>
         </div>
 
         <div className="block lg:hidden pr-4">
@@ -60,7 +59,7 @@ export default function Header() {
                 </a>
               </Link>
             </li>
-            <li className="mr-3">
+            {/* <li className="mr-3">
               <a
                 className="inline-block py-2 px-4 text-white font-bold no-underline hover:text-gray-500"
                 href="#"
@@ -75,14 +74,14 @@ export default function Header() {
               >
                 Stake
               </a>
-            </li>
+            </li> */}
           </ul>
-          <button
+          {/* <button
             id="navAction"
             className="mx-auto lg:mx-0 hover:underline text-black bg-white font-extrabold rounded mt-4 lg:mt-0 py-2 px-4 shadow ml-3"
           >
             Play
-          </button>
+          </button> */}
         </div>
       </div>
     </nav>
