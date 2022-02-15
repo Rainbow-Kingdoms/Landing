@@ -14,7 +14,7 @@ const props = {
 const propsMobile = {
   width: 390,
   height: 292,
-  zoomWidth: 375,
+  zoomWidth: 0.1,
   zoomPosition: "original",
   img: "/assets/preview.png",
 };
