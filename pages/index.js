@@ -34,7 +34,7 @@ export default function Home() {
                   Mint NFT Playing Cards
                 </div>
                 <div className="text-white mb-6 text-3xl rainbow-text font-bold">
-                  Countdown <Countdown date="2022-05-12T22:00:00" />
+                  Countdown <Countdown date="May 12, 2022 21:00:00 UTC+01:00" />
                 </div>
                 <Link href="/preview">
                   <button
