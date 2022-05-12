@@ -12,6 +12,7 @@ export default function Footer() {
               height={80}
               width={80}
               className="rounded-xl"
+              alt=""
             />
           </div>
 

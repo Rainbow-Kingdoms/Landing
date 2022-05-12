@@ -30,20 +30,18 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center -top-20 md:top-0 relative">
               <div>
-                <div className="leading-normal text-gray-200 text-base md:text-xl lg:text-2xl mb-6">
+                <div className="text-white mb-6 text-3xl rainbow-text font-bold">
                   Mint NFT Playing Cards
                 </div>
-                <div className="text-white mb-6 text-3xl rainbow-text font-bold">
-                  Countdown <Countdown date="May 12, 2022 21:00:00 UTC+01:00" />
-                </div>
-                <Link href="/preview">
-                  <button
-                    id="navAction"
-                    className="mx-auto lg:mx-0 hover:underline text-black bg-white font-extrabold rounded lg:mt-0 py-2 px-4 shadow"
-                  >
-                    Preview
-                  </button>
-                </Link>
+                <button
+                  onClick={() =>
+                    window.open("https://rainbow-kingdoms-mint.web.app/")
+                  }
+                  id="navAction"
+                  className="mx-auto lg:mx-0 hover:underline text-black bg-white font-extrabold rounded lg:mt-0 py-2 px-4 shadow"
+                >
+                  Mint
+                </button>
               </div>
               <div className="hidden md:block">
                 <Image
