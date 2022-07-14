@@ -55,8 +55,8 @@ export default function Roadmap() {
                     <div className="ml-4">{m.name}</div>
                   </th>
                   <td className="py-4 px-6">
-                    {m.loot.map((n) => (
-                      <div className="mr-2">{n.name}</div>
+                    {m.loot.map((n, i) => (
+                      <div className="mr-2" key={i}>{n.name}</div>
                     ))}
                   </td>
                   <td className="py-4 px-6">{`${m.dmg[0]} to ${m.dmg[1]}`}</td>
