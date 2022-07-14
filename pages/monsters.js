@@ -45,8 +45,8 @@ export default function Roadmap() {
             </thead>
 
             <tbody>
-              {MonstersIndex.map((m) => (
-                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              {MonstersIndex.map((m, i) => (
+                <tr key={i} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                   <th
                     scope="row"
                     className="flex items-center py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
