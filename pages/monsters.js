@@ -16,29 +16,29 @@ export default function Roadmap() {
       </Head>
 
       <Layout>
-        <div class="container mx-auto py-10">
-          <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <div className="container mx-auto py-10">
+          <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
               <tr>
-                <th scope="col" class="py-3 px-6">
+                <th scope="col" className="py-3 px-6">
                   Monster
                 </th>
-                <th scope="col" class="py-3 px-6">
+                <th scope="col" className="py-3 px-6">
                   Loot
                 </th>
-                <th scope="col" class="py-3 px-6">
+                <th scope="col" className="py-3 px-6">
                   Damage
                 </th>
-                <th scope="col" class="py-3 px-6">
+                <th scope="col" className="py-3 px-6">
                   HP
                 </th>
-                <th scope="col" class="py-3 px-6">
+                <th scope="col" className="py-3 px-6">
                   EXP
                 </th>
-                <th scope="col" class="py-3 px-6">
+                <th scope="col" className="py-3 px-6">
                   Rarity
                 </th>
-                <th scope="col" class="py-3 px-6">
+                <th scope="col" className="py-3 px-6">
                   Level
                 </th>
               </tr>
@@ -46,24 +46,24 @@ export default function Roadmap() {
 
             <tbody>
               {MonstersIndex.map((m) => (
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                   <th
                     scope="row"
-                    class="flex items-center py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    className="flex items-center py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                   >
                     <Image src={m.image} height={50} width={25} />
                     <div className="ml-4">{m.name}</div>
                   </th>
-                  <td class="py-4 px-6">
+                  <td className="py-4 px-6">
                     {m.loot.map((n) => (
                       <div className="mr-2">{n.name}</div>
                     ))}
                   </td>
-                  <td class="py-4 px-6">{`${m.dmg[0]} to ${m.dmg[1]}`}</td>
-                  <td class="py-4 px-6">{m.hp}hp</td>
-                  <td class="py-4 px-6">{m.xp}xp</td>
-                  <td class="py-4 px-6">{m.rarity}</td>
-                  <td class="py-4 px-6">{m.lvl}</td>
+                  <td className="py-4 px-6">{`${m.dmg[0]} to ${m.dmg[1]}`}</td>
+                  <td className="py-4 px-6">{m.hp}hp</td>
+                  <td className="py-4 px-6">{m.xp}xp</td>
+                  <td className="py-4 px-6">{m.rarity}</td>
+                  <td className="py-4 px-6">{m.lvl}</td>
                 </tr>
               ))}
             </tbody>
