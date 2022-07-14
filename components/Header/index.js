@@ -59,6 +59,13 @@ export default function Header() {
                 </a>
               </Link>
             </li>
+            <li className="mr-3">
+              <Link href="/monsters">
+                <a className="inline-block py-2 px-4 text-white font-bold no-underline hover:text-gray-500">
+                  Monsters
+                </a>
+              </Link>
+            </li>
             {/* <li className="mr-3">
               <a
                 className="inline-block py-2 px-4 text-white font-bold no-underline hover:text-gray-500"
